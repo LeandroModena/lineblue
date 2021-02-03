@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="TextInputLayoutEmpregoAzul">
+    <item name="android:background">@color/white</item>
+</style>
+
+    <style name="ButtonEmpregoAzul">
+        <item name="backgroundTint">@color/primaryColor</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_baseline_account_box_24"
+            android:title="Conta" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_baseline_help_center_24"
+            android:title="Ajuda" />
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_baseline_message_24"
+            android:title="Dê sua opinião" />
+        <item
+            android:id="@+id/nav_terms"
+            android:icon="@drawable/ic_baseline_lock_24"
+            android:title="Termo de uso" />
+    </group>
+
+    <item android:title="Redes Sociais">
+        <menu>
+            <item
+                android:id="@+id/nav_youtube"
+                android:icon="@drawable/ic_baseline_ondemand_video_24"
+                android:title="YouTube" />
+            <item
+                android:id="@+id/nav_linkedin"
+                android:icon="@drawable/logotipo_linkedin"
+                android:title="Linkedin" />
+        </menu>
+
+    </item>
+
+
+    <item android:title="Aplicativo">
+        <menu>
+            <item
+                android:id="@+id/nav_version"
+                android:icon="@drawable/ic_baseline_info_24"
+                android:title="Versão" />
+
+        </menu>
+    </item>
+
+</menu>

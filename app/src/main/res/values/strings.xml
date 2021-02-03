@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Emprego Azul</string>
+    <string name="home">Home</string>
+    <string name="interview">Entrevista</string>
+    <string name="service">Serviço</string>
+    <string name="search_job">Confira as vagas nas melhores empresas para trabalhar no Brasil</string>
+    <string name="date">22/12/2020</string>
+    <string name="jobs_company">Localize sua vaga de emprego direto do sites das empresas, clicando aqui!</string>
+    <string name="new_interview">Novo</string>
+    <string name="edit_interview">Editar</string>
+    <string name="historic_interview">Histórico</string>
+    <string name="alarm_interview">Notificações</string>
+    <string name="save">Salvar</string>
+    <string name="annotations_interview">Anotaçoes para entrevista:</string>
+    <string name="speak_with">Falar com:</string>
+    <string name="company_newinterview">Empresa:</string>
+    <string name="local_newinterview">Local:</string>
+    <string name="opportunity_interview">Cargo para entrevista:</string>
+    <string name="day_interview">Dia:</string>
+    <string name="hour_interview">Hora:</string>
+    <string name="save_interview">Entrevista salva com sucesso</string>
+    <string name="not_conf">Selecione a entrevista abaixo para sincronizar com a agenda do seu smartfone:</string>
+    <string name="interview_open">Entrevista aberta</string>
+    <string name="interview_close">Entrevista fechada</string>
+    <string name="standard_hour">A hora deve ter o formato de HH:MM 24h</string>
+    <string name="standard_date">A data deve ser dd/MM/AAAA</string>
+    <string name="interview_mandatory_filed">Todos os campos são obrigatório, exceto anotações.</string>
+    <string name="news">Notícias</string>
+    <string name="news_last">Últimas Notícias</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="ajuda_perg1">O que é o aplicativo Emprego Azul?</string>
+    <string name="ajuda_perg2">Vocês anunciam vagas?</string>
+    <string name="ajuda_perg3">Vocês oferecem algum tipo de serviço?</string>
+    <string name="ajuda_perg4">O aplicativo irá ter atualizações?</string>
+    <string name="ajuda_perg5">Não quero receber notificação desse aplicativo!</string>
+    <string name="ajuda_perg6">Não encontrei minha duvida!</string>
+    <string name="ajuda_res1">É um serviço de apoio para você encontrar uma nova oportunidade de emprego. Usamos diversos recursos como aplicativo, redes sociais e site com diversas funcionalidades para auxiliar.</string>
+    <string name="ajuda_res2">Não, não somos anunciantes de vagas, o aplicativo leva você para o link oficial da vaga postada pela empresa, sendo assim não temos controle sobre as vagas anunciadas e/ou seus conteúdos. </string>
+    <string name="ajuda_res3">Sim, oferecemos serviços para revisão de currículo, entrevista simulada e outros serviços, toda contratação dos serviços é feito através do nosso site empregoazul.com.br.</string>
+    <string name="ajuda_res4">Sim, o aplicativo terá atualizações constante para adicionar novos recursos, corrigir bugs e outros, portanto mantenha seu aplicativo atualizado na Play Store.</string>
+    <string name="ajuda_res5">Você pode desativar as notificações segurando encima do ícone do emprego azul na sua tela inicial, seguindo essas etapas:  Inform.do app->notificações->exibir notificações.</string>
+    <string name="ajuda_res6">Entre em contato conosco, o canal oficial para isso é através do email contido em Dê sua opinião.</string>
+
+    <string name="terms_of_use">
+<![CDATA[
+<h2>1. Termos</h2> <p>Ao acessar esse Aplicativo você concorda em cumprir estes termos de serviço,
+todas as leis e regulamentos aplicáveis ​​e concorda que é responsável pelo cumprimento de todas as
+leis locais aplicáveis. Se você não concordar com algum desses termos, está proibido de usar ou
+acessar este aplicativo. Os materiais contidos neste aplicativo são protegidos pelas leis de direitos
+autorais e marcas comerciais aplicáveis.</p><h2>2. Uso de Licença</h2> <p>Esta é a concessão de uma
+ licença, não uma transferência de título e, sob esta licença, você não pode: </p> <ol><li>modificar
+ ou copiar os materiais; </li><li>usar os materiais para qualquer finalidade comercial ou para
+ exibição pública (comercial ou não comercial);  </li><li>tentar descompilar ou fazer engenharia
+ reversa de qualquer software contido no aplicativo ;  </li><li>remover quaisquer direitos autorais
+ ou outras notações de propriedade dos materiais; ou  </li>    </ol> <p>Esta licença será
+ automaticamente rescindida se você violar alguma dessas restrições e poderá ser rescindida por  a
+ qualquer momento. </p> <h2>3. Isenção de responsabilidade</h2><ol><li>Os materiais do aplicativo
+ são fornecidos como estão.  não oferece garantias, expressas ou implícitas, e, por este meio,
+ isenta e nega todas as outras garantias, incluindo, sem limitação, garantias implícitas ou
+ condições de comercialização, adequação a um fim específico ou não violação de propriedade intelectual
+ ou outra violação de direitos. </li> <li>Além disso, o Emprego Azul não garante ou faz qualquer
+  representação relativa à precisão, aos resultados prováveis ou à confiabilidade do uso dos sites
+ terceiros ou de outra forma relacionado.</li></ol><h2>4. Limitações</h2> <p>Em nenhum caso o Emprego Azul ou
+ seus fornecedores serão responsáveis ​​por quaisquer danos (incluindo, sem limitação, danos por
+ perda de dados ou lucro ou devido a interrupção dos negócios) decorrentes do uso ou da incapacidade
+ de usar o aplicativo, mesmo que  ou um representante autorizado da  tenha sido notificado oralmente
+ ou por escrito da possibilidade de tais danos. Como algumas jurisdições não permitem limitações em
+ garantias implícitas, ou limitações de responsabilidade por danos conseqüentes ou incidentais, essas
+ limitações podem não se aplicar a você.</p>            <h2>5. Precisão dos materiais</h2>
+ <p>Os materiais exibidos nos site de terceiros  podem incluir erros técnicos, tipográficos ou fotográficos.
+ não garante que qualquer material em seu aplicativo seja preciso, completo ou atual.  pode fazer alterações
+ nos materiais contidos em seu aplicativo a qualquer momento, sem aviso prévio. No entanto,  não se compromete
+ a atualizar os materiais.</p>            <h2>6. Links</h2>            <p>O  Emprego Azul não analisou todos os
+ sites vinculados ao seu site e não é responsável pelo conteúdo de nenhum site vinculado. A inclusão de qualquer
+ link não implica endosso do site. O uso de qualquer site vinculado é por conta e risco do usuário.</p>
+  </p><h3>Modificações</h3>
+ <p>O Emprego Azul pode revisar estes termos de serviço do site a qualquer momento, sem aviso prévio.
+ Ao usar este aplicativo, você concorda em ficar vinculado à versão atual desses termos de serviço.</p>            <h3>Lei aplicável</h3>            <p>Estes termos e condições são regidos e interpretados de acordo com as leis do Brasil  e você se submete irrevogavelmente à jurisdição exclusiva dos tribunais dos estados brasileiro.</p>
+]]>
+</string>
+    <string name="welcome">"Bem vindo: "</string>
+    <string name="interview_ask">O que deseja fazer com sua entrevista?</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Excluir</string>
+    <string name="interview_edit">Editar</string>
+    <string name="version">Versão</string>
+    <string name="terms">Termo</string>
+    <string name="help">Ajuda</string>
+    <string name="error_url">URL inválida</string>
+</resources>

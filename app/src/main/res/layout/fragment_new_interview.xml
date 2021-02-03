@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/newinterview_text_input_layout_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/newinterview_text_input_edit_company"
+                style="@style/TextInputLayoutEmpregoAzul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/company_newinterview"
+                android:imeOptions="actionNext"
+                android:nextFocusDown="@id/newinterview_text_input_edit_local"
+                android:singleLine="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/newinterview_text_input_layout_local"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newinterview_text_input_layout_company">
+
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/TextInputLayoutEmpregoAzul"
+            android:id="@+id/newinterview_text_input_edit_local"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/local_newinterview"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:nextFocusDown="@id/newinterview_text_input_edit_opportunity"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/newinterview_text_input_layout_opportunity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newinterview_text_input_layout_local">
+
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/TextInputLayoutEmpregoAzul"
+            android:id="@+id/newinterview_text_input_edit_opportunity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/opportunity_interview"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:nextFocusDown="@id/newinterview_text_input_edit_day"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/newinterview_text_input_layout_day"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newinterview_text_input_layout_opportunity">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/newinterview_text_input_edit_day"
+            style="@style/TextInputLayoutEmpregoAzul"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/day_interview"
+            android:imeOptions="actionNext"
+            android:inputType="date"
+            android:nextFocusDown="@id/newinterview_text_input_edit_hour"
+            android:singleLine="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/newinterview_text_input_layout_hour"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/newinterview_text_input_layout_day"
+        app:layout_constraintTop_toTopOf="@+id/newinterview_text_input_layout_day">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/TextInputLayoutEmpregoAzul"
+            android:id="@+id/newinterview_text_input_edit_hour"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/hour_interview"
+            android:inputType="time"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:nextFocusDown="@id/newinterview_text_input_edit_speak"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/newinterview_text_input_layout_speak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newinterview_text_input_layout_day">
+
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/TextInputLayoutEmpregoAzul"
+            android:id="@+id/newinterview_text_input_edit_speak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/speak_with"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:nextFocusDown="@id/newinterview_button_ok"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/newinterview_text_input_layout_annotations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newinterview_text_input_layout_speak">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/newinterview_text_input_edit_annotations"
+            style="@style/TextInputLayoutEmpregoAzul"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:hint="@string/annotations_interview"
+            android:imeOptions="actionDone"
+            android:singleLine="false"
+            android:textAlignment="viewStart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        style="@style/ButtonEmpregoAzul"
+        android:id="@+id/newinterview_button_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newinterview_text_input_layout_annotations" />
+
+    <TextView
+        android:id="@+id/id1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/interview_open"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newinterview_button_ok" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/interview_switch_compat_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/interview_open"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "392253499710",
+    "project_id": "emprego-azul-6900a",
+    "storage_bucket": "emprego-azul-6900a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392253499710:android:f7927efaf6beb4f818e46f",
+        "android_client_info": {
+          "package_name": "br.com.empregoazul"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392253499710-er6c2htqu3est8cbov086v4oh2f8st33.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC8b0dHJmPiLE067nFS-haAkkwJ6oQsuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392253499710-er6c2htqu3est8cbov086v4oh2f8st33.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
